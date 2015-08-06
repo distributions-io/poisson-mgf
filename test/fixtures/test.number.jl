@@ -1,7 +1,7 @@
 using Distributions
 using JSON
 
-lambda = 1
+lambda = 2
 d = Poisson( lambda )
 
 x = [ -5, -2.5, 0, 2.5, 5 ]

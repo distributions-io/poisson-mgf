@@ -1,7 +1,7 @@
 using Distributions
 using JSON
 
-lambda = 1
+lambda = 3
 d = Poisson( lambda )
 
 x = linspace( 1, 0, 25 )

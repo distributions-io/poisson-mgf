@@ -7,7 +7,7 @@ Moment-Generating Function
 The [moment-generating function](https://en.wikipedia.org/wiki/Moment-generating_function) for a [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) random variable is
 
 <div class="equation" align="center" data-raw-text="
-    M_X(t) := \mathbb{E}\!\left[e^{tX}\right]" data-equation="eq:mgf_function">
+    M_X(t) := \mathbb{E}\!\left[e^{tX}\right] =  \exp(\lambda (e^{t} - 1))" data-equation="eq:mgf_function">
 	<img src="" alt="Moment-generating function (MGF) for a Poisson distribution.">
 	<br>
 </div>

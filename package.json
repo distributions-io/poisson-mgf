@@ -1,7 +1,7 @@
 {
   "name": "distributions-poisson-mgf",
   "version": "0.0.0",
-  "description": "Poisson distribution moment-generating function (MGF)",
+  "description": "Poisson distribution moment-generating function (MGF).",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
