@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/poisson-mgf.git"
+    "url": "git://github.com/distributions-io/poisson-mgf.git"
   },
   "keywords": [
     "distributions.io",
@@ -33,7 +33,7 @@
     "moments"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/poisson-mgf/issues"
+    "url": "https://github.com/distributions-io/poisson-mgf/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",

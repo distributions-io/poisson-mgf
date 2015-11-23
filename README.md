@@ -12,7 +12,7 @@ The [moment-generating function](https://en.wikipedia.org/wiki/Moment-generating
 	<br>
 </div>
 
-where `lambda` is the mean parameter.
+where `lambda > 0` is the mean parameter.
 
 ## Installation
 
@@ -82,7 +82,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) distribution is a function of 1 parameter(s): `lambda`(mean parameter). By default, `lambda` is equal to `1`. To adjust either parameter, set the corresponding option(s).
+A [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) distribution is a function of one parameter: `lambda`(mean parameter). By default, `lambda` is equal to `1`. To adjust it, set the corresponding option.
 
 ``` javascript
 var t = [ 0, 0.5, 1, 1.5, 2, 2.5 ];
